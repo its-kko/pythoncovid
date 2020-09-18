@@ -17,7 +17,7 @@ while True:
         c = mm['confirmed']
         d = mm['deaths']
         r = mm['recovered']
-        time.sleep(2)
+        time.sleep(300)
         mm2 = covid.get_status_by_country_id(28)
         c2 = mm2['confirmed']
         d2 = mm2['deaths']
