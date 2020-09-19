@@ -10,7 +10,7 @@ password = os.environ['password']
 server = smtplib.SMTP_SSL('smtp.gmail.com',465)
 server.login(email,password)
 work = True
-
+server.sendmail(email,'mgkokooo2006@iclud.com',"HELLO")
 while True:
     while work == True:
         mm = covid.get_status_by_country_id(28)
